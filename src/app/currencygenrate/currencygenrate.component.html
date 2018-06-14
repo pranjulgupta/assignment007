@@ -1,0 +1,12 @@
+<input type="text" [(ngModel)]="name">
+<select [(ngModel)]="cnames1">
+  <option (value)="cnames1" *ngFor="let cnames of cname; let i =index">{{cnames}}</option>
+ 
+</select>
+<button (click)="getcountryname()">check</button><br>
+<input type="text" [(ngModel)]="name1">
+<select [(ngModel)]="cnames2">
+  <option (value)="cnames2" *ngFor="let cnames2 of cname">{{cnames2}}</option>
+</select>
+
+
